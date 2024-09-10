@@ -1,5 +1,5 @@
 import { createServer } from 'miragejs';
-import ENV from 'intercom-directory/config/environment';
+import ENV from 'my-test-app/config/environment';
 
 export default function (config) {
   return createServer({
