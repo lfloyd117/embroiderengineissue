@@ -7,6 +7,14 @@ export default class App extends Application {
   modulePrefix = config.modulePrefix;
   podModulePrefix = config.podModulePrefix;
   Resolver = Resolver;
+
+  engines = {
+    'my-engine': {
+      dependencies: {
+        services: ['dom', 'env-settings', 'engine-config', 'intl', 'router'],
+      },
+    },
+  };
 }
 
 loadInitializers(App, config.modulePrefix);

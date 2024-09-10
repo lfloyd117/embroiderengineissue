@@ -14,6 +14,11 @@ module.exports = function (environment) {
       },
     },
 
+    myEngine: {
+      engineApiPrefix: 'site',
+      parentApplication: 'my-test-app',
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

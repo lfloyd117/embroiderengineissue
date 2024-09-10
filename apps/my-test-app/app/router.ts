@@ -8,4 +8,8 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   // Add route declarations here
+  this.mount('my-engine', {
+    path: '/my-engine',
+    as: 'my-engine'
+});
 });
