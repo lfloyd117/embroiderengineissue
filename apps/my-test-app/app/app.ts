@@ -11,7 +11,7 @@ export default class App extends Application {
   engines = {
     'my-engine': {
       dependencies: {
-        services: ['dom', 'env-settings', 'engine-config', 'intl', 'router'],
+        services: ['router'],
       },
     },
   };
